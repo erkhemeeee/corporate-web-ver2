@@ -1,0 +1,115 @@
+
+.swiper{
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide1{
+    /* background-image: url('./img/family_room.jpg'); */
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../public/img/family_room.jpg');
+    background-size: cover;
+    background-repeat: none ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Brygada 1918', serif;
+}
+
+.slide1 img{
+    width: 11%;
+    margin-top: -10%;
+    margin-bottom: 3%;
+}
+
+.slide1 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.slide2{
+  background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/classic_room.jpg');
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Brygada 1918', serif;
+}
+
+.slide2 img{
+    width: 11%;
+    margin-top: -10%;
+    margin-bottom: 3%;
+}
+
+.slide2 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.slide3{
+  background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/semi_lux.jpg');
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Brygada 1918', serif;
+}
+
+.slide3 img{
+    width: 11%;
+    margin-top: -10%;
+    margin-bottom: 4%;
+}
+
+
+.slide3 h1{
+    font-weight: 700;
+    font-size: 40px;
+}

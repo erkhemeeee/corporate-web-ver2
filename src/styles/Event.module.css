@@ -1,0 +1,86 @@
+.footer_mid p,
+.footer_mid span,
+.footer_mid h5,
+.footer_mid h4 {
+  color: black;
+}
+.footer1 {
+  background: #f6f7fb;
+  font-style: "Brygada 1918", serif;
+}
+.footer_mid {
+  margin: auto;
+  color: black;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.footer_mid .left span,
+.footer_mid .right span {
+  font-weight: 400;
+}
+.date .month {
+  display: flex;
+}
+.footer_mid h5 {
+  color: blue;
+  font-style: "Brygada 1918", serif !important;
+}
+.footer_mid .left .right h5 {
+  color: black;
+}
+.italic_txt {
+  font-family: "Brygada 1918", serif;
+  font-size: 40px;
+}
+.footer_mid .left h4 {
+  color: blue;
+  font-size: 30px;
+}
+.footer_mid .month p {
+  color: grey;
+  font-size: 15px;
+}
+.footer_mid .month h5 {
+  font-size: 20px;
+}
+.footer_mid .month .left {
+  padding-right: 25px;
+}
+.footer_mid .right {
+  position: relative;
+}
+.footer_mid .right1 p {
+  color: grey;
+  font-size: 15px;
+}
+.footer_mid .right h6 {
+  color: grey;
+  font-size: 15px;
+}
+.footer_mid .right form input {
+  background: white;
+  width: 60%;
+  font-size: 14px;
+  padding: 7px 10px;
+  border: none;
+}
+.footer_mid form {
+  position: absolute;
+  bottom: 0;
+  white-space: nowrap;
+  font-family: "Brygada 1918", serif;
+}
+.footer_mid .right form button {
+  background: blue;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 7px 20px;
+  font-family: "Brygada 1918", serif;
+}
+.fa-long-arrow-alt-right {
+  color: white;
+  padding: 0 10px;
+}

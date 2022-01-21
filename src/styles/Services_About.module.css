@@ -1,0 +1,118 @@
+.about_history{
+    width: 100%;
+}
+.about_title h1, .about_title p{
+    width: 65%;
+    margin: 2% auto;
+    margin-top: 0;
+}
+.about_title h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+.about_title span{
+    color: #B58E3E;
+}
+.detail_text{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.detail_text .history_detail, .detail_text .about_detail{
+    width: 50%;
+    padding: 5%;
+    text-align: justify;
+}
+
+.detail_text span{
+    color: #B58E3E;
+}
+.detail_text p{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.sign{
+    width: 100%;
+    display: flex;
+}
+.sign img{
+    width: 80%;
+}
+.sign .role{
+    width: 80%;
+}
+.about_title_text{
+    position: relative;
+}
+.about_title_text h1{
+    top: 0;
+    z-index: 0;
+    font-size: 120px;
+    color: #F6F7FB;
+    margin: 0;
+}
+.about_title_text h2{
+    position: absolute;
+    top: 35%;
+
+}
+
+.service_about{
+    font-family: 'Brygada 1918', serif;
+    background:linear-gradient(rgba(211, 211, 211, 0.856), rgba(236, 236, 236, 0.863)), url('/img/back_corp.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    /* height: 140vh; */
+}
+.service h1, .service p{
+    width: 65%;
+    margin: 2% auto;
+    margin-top: 0;
+}
+.service h1{
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+.service span{
+    color: #B58E3E;
+}
+.services{
+    width: 85%;
+    height: 50vh;
+    border: 1px solid black;
+    margin-left: 9%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.services .back1{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('/img/bar.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.services .back2{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('/img/spa_salon.jpg');
+    background-size: cover;
+    background-position: center;
+}.services .back3{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('/img/healt_club.jpg');
+    background-size: cover;
+}.services .back4{
+    background:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.644)), url('/img/event_hall.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.back1, .back2, .back3, .back4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;    
+    text-align: center;
+}

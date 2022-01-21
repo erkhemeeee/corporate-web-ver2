@@ -1,0 +1,67 @@
+.footer_bot {
+  text-align: center;
+  padding-top: 80px;
+  background-color: #e5e5e5;
+  color: black;
+  padding-bottom: 38px;
+  font-family: "Brygada 1918", serif;
+}
+.footer_bot img {
+  margin: auto;
+  width: 10%;
+}
+.footer_bot p {
+  color: black;
+  margin-top: 2%;
+}
+.footer_bot p span {
+  color: grey;
+  font-size: 12px;
+}
+.footer_bot_end {
+  width: 100%;
+  display: flex;
+  color: black;
+  background-color: #e5e5e5;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid rgb(165, 165, 165);
+  font-family: "Brygada 1918", serif;
+}
+.footer_bot_end .logos {
+  width: 25%;
+  display: flex;
+  margin-right: 20%;
+}
+.footer_bot_end .logos img {
+  width: 30%;
+  padding: 0 19px;
+}
+
+.list .list_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer_bot_end .list .list_top ul li {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 0;
+}
+
+.footer_bot_end .list .list_top p {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.footer_bot_end .list_bot span {
+  color: blue;
+}
+.footer_bot_end .list_top li {
+  color: black;
+}
+.footer_bot_end .list_bot p {
+  color: black;
+}

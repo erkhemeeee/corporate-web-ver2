@@ -1,0 +1,88 @@
+.swiper {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.swiper_slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper_slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer_top {
+  background: black;
+  background: linear-gradient(rgba(13, 41, 68, 0.7), rgba(13, 41, 68, 0.7)),
+    url(../../public/img/back.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  color: #fff;
+  height: 60vh;
+}
+.footer_top .top {
+  position: relative;
+  text-align: center;
+  padding: 53px 0;
+  z-index: 998;
+}
+.footer_top .top h2 {
+  font-family: "Brygada 1918", serif;
+}
+
+.footer_top .top p {
+  font-family: "Brygada 1918", serif;
+}
+
+.swiperFooter {
+  z-index: 999;
+  width: 55%;
+  height: 300px;
+  padding: 0 50px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #fff;
+}
+.footer_top .swiper_slide {
+  text-align: center;
+  background: none;
+  font-family: "Brygada 1918", serif;
+}
+.footer_top .swiper_slide p {
+  padding: 0 30px;
+  margin-bottom: 100px;
+}
+.footer_top .swiper_slide h3 {
+  margin-bottom: 10px;
+}
+.footer_top .swipper_slide .star {
+  margin-bottom: 80px;
+}
+.star i {
+  color: yellow;
+  z-index: 10;
+}

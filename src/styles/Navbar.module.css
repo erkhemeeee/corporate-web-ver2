@@ -1,0 +1,27 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  color: #fff;
+  padding: 0.5% 0;
+  text-transform: uppercase;
+  font-family: "Brygada 1918", serif;
+}
+.logo {
+  width: 7%;
+  margin-left: 5%;
+}
+.logo img {
+  width: 100%;
+}
+.list {
+  width: 40%;
+  margin-left: 5%;
+}
+.list ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
